@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+#content{
+    width: 960px;
+}
+
+#header{
+    background-color: #ffffff;
+    width: 100%
+}
+
+#gl{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+a{
+    color: #777777;
+}
