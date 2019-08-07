@@ -21,19 +21,34 @@ h1, h2{
 #content{
     width: 960px;
     margin: 0 auto;
+    border-right: #777777;
+    border-width: 10px;
 }
 
 #header{
     background-color: #ffffff;
-    width: 100%
+    width: 960px;
+    margin: 0 auto;
 }
 
 #gl{
     background-color: #4aaaa5;
     color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    width: 125px;
+    position: relative;
+    left: 0;
+}
+
+#about, #portfolio, #contact{
+    float: right;
+    margin: 20px;
+    padding: 20px;
 }
 
 a{
+    clear: both;
     color: #777777;
 }
 
@@ -49,4 +64,15 @@ p, #profile_picture{
 
 p{
     width: 740px;
+}
+
+#footer{
+    clear: both;
+    width: 100%;
+    background-color: #777777;
+    border-top: #4aaaa5;
+    border-width: 20px;
+    position: fixed;
+    margin: 0;
+    bottom: 0;
 }
