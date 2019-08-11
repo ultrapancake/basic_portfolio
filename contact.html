@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Glen Larsen Contact</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>   
+        <title>Glen Larsen About Me</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
 
     <body>
+        <header>
 
-        <div id= header>
+            <div id= "menu">
 
-            <div id= menu>
+                <h1>Glen Larsen</h1>
 
-            <div id= gl>Glen Larsen</div>
+                <div id= "link_bar">
+                    <a href="index.html" id= "link_about">About</a>
+                    <a href="#" id= "link_contact">Contact</a>
+                    <a href="portfolio.html" id= "link_portfolio">Portfolio</a>
+                </div>
 
-            <div id= portfolio>
-                <a href="portfolio.html">Portfolio</a>
             </div>
 
-            <div id= contact>
-                <a href="#">Contact</a>
-            </div>
+        </header>
 
-            <div id= about>
-                    <a href="index.html">About</a>
-            </div>
-            
-            </div>
-
-        </div>
-
-        <div id= content>
+        <div id= "content">
 
             <h2>Contact</h2>
 
-            <hr> 
+            <hr>
 
-            <h3>Name</h3>
-
-            <input type="text" name="Name" id="name_input">
-
-            <h3>Email</h3>
-
-            <input type="text" name="Email" id="email_input">
-
-            <h3>Message</h3>
-
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-            <br>
+            <div class="contact-form">
             
-            <button>Submit</button>
+                <form action="ultrapancake@gmail.com" method="POST">
+
+                    <h4>Name</h4>
+
+                    <input type="text" name="Name" id="name_input" placeholder="Your Name" required>
+
+                    <h4>Email</h4>
+
+                    <input type="email" name="email" id="email_input" placeholder="Your Email" required>
+
+                    <h4>Message</h4>
+
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+
+                    <br>
+
+                    <input type="submit" id="submit" value="SEND MESSAGE">
+
+                </form>
+
+            </div>
 
         </div>
 
-        <div id=footer>
-            copyright &copy;
-        </div>
+        <footer>
+
+            <h3>copyright &copy;</h3>
+
+        </footer>
 
     </body>
+    
 </html>
